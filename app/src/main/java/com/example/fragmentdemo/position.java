@@ -5,6 +5,15 @@ import android.icu.text.Transliterator;
 public class position {
 
     private String title;
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
     private String description;
 
     public position(String title, String description) {
